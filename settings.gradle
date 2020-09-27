@@ -1,0 +1,8 @@
+include ':HouUI'
+rootProject.name = "hou-ui"
+
+include ':app'
+include ':HouUI'
+
+include ':HouLibrary'
+project(':HouLibrary').projectDir = new File("../hou-library/HouLibrary")
